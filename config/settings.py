@@ -32,6 +32,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     "http://localhost:8000",
     "127.0.0.1",
+    "https://port-0-cloudtype-session-1272llwn08nul.sel5.cloudtype.app/",
 ]
 
 # cors 설정
@@ -39,12 +40,14 @@ CORS_ALLOWED_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:8000",
+    "https://port-0-cloudtype-session-1272llwn08nul.sel5.cloudtype.app/",
 ]
 
 # csrf 설정
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:8000",
+    "https://port-0-cloudtype-session-1272llwn08nul.sel5.cloudtype.app/",
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
